@@ -28,7 +28,67 @@ nav{
 }
 #hero-section{
 }
-#category{
+#category,footer{
     width:94vw;
     margin: auto;
+}
+
+.footer-r-3{
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    line-height: 18px;
+    margin: 12px;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 24PX;
+}
+.footer-r-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-r2-c1{
+    width: 40%;
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100%;
+    padding-left: 16px;
+}
+#Footer_links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#Footer_links>button{
+    width: 120px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgb(33, 33, 75);
+}
+#Social_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20PX;
+}
+.download{
+    padding-top: 10px;
 }
