@@ -92,3 +92,21 @@ nav{
 .download{
     padding-top: 10px;
 }
+.footer-r-1{
+    display: flex;
+}
+#footer-table-1{
+    flex: 2;
+    padding-left: 15px;
+}
+#footer-table-2{
+    flex: 3;
+}
+table{
+    width: 100%;
+}
+td{
+    font-size: 14px;
+    color:#6b6b6b;
+    padding-bottom: 10px;
+}
