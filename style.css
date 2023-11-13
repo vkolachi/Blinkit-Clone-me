@@ -133,6 +133,8 @@ td{
     border: 0.5px solid rgb(232, 232, 232);
     box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
     border-radius: 8px;
+    /* white-space: pre-line; 
+    */
 }
 .time{
     border-radius: 5px;
@@ -145,6 +147,7 @@ td{
 .product-name{
     font-size: 15px;
     font-weight: 900;
+    word-wrap: break-word;
 }
 
 .product-weight{
