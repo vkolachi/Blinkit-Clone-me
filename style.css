@@ -126,13 +126,13 @@ td{
 
 }
 .my-card{
-    width: 200px;
+    width: 190px;
     display: inline-block !important;
-    margin-inline: 10px;
+    margin-inline: 4px;
     background: rgb(255, 255, 255);
     border: 0.5px solid rgb(232, 232, 232);
     box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
-    border-radius: 8px;
+    border-radius: 18px;
     /* white-space: pre-line; 
     */
 }
@@ -147,7 +147,7 @@ td{
 .product-name{
     font-size: 15px;
     font-weight: 900;
-    word-wrap: break-word;
+    white-space: pre-line;
 }
 
 .product-weight{
